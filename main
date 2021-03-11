@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KZ COLA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+      height: 200px;
+      background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>Fruitnana</h1>
+  <p>Помощь маме, и Папе</p> 
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MENU</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="main.html">Меню</a></li>
+          <li><a href="product.html">Наша Продукция</a></li>
+          <li><a href="registr.html">Регистрация</a></li>
+          
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>О нас</h2>
+      <h5>Наше начало</h5>
+      <div class="fakeimg">
+        <img src="https://www.coca-colacompany.com/content/dam/journey/us/en/responsible-business/sustainable-business/coca-cola-jacobs-pharmacy.jpg" width="360" height="200" alt="">
+      </div>
+      <p>АО «ПРОГРЕСС» является лидером на российском рынке детского питания и уже более 29 лет выпускает натуральную и полезную продукцию для малышей</p>
+      <h3>МЕНЮ</h3>
+      <p>Мы поздравляем нашу компанию с богатой историей</p>
+
+
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+          Меню <span class ="caret"></span>
+        </button>
+      
+        <ul class="dropdown-menu">
+          <li ><a href="main.html">Меню</a></li>
+          <li><a href="product.html">Наша Продукция</a></li>
+          <li><a href="registr.html">Регистрация</a></li>
+        </ul>
+      </div>
+
+
+
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>Наши Цели</h2>
+      <h5>Создаем различия</h5>
+      <div class="fakeimg">
+        <img src="https://www.coca-colacompany.com/content/dam/journey/us/en/our-company/plantbottle.jpg" width="750" height="200" alt="">
+      </div>
+      <p>Миссия АО «ПРОГРЕСС» — мы помогаем
+        заботиться о здоровом питании детей!</p>
+      <br>
+      <h2>Качество и безопасность</h2>
+      <h5>Мы уделяем особое внимание качеству и безопасности продукции, которую выпускаем для малышей.</h5>
+      <div class="fakeimg">
+        <img src="https://www.coca-colacompany.com/content/dam/journey/us/en/landing-pages/coca-cola-careers.jpg" width="750" height="200" alt="">
+      </div>
+      
+      <p>В собственном аккредитованном испытательном центре специалисты компании оценивают поступившее на предприятие сырье по множеству факторов: физико-химическим, органолептическим, микробиологическим показателям, показателям безопасности и аутентичности.</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>@Copyright 2021</p>
+</div>
+
+  
+</body>
+</html>
+
+
+
